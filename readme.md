@@ -1,6 +1,7 @@
 # SvnRepo2Git: Migrate Your Live SVN Repository to Git
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub release](https://img.shields.io/github/v/release/Svn2GitTools/SvnRepo2Git)](https://github.com/Svn2GitTools/SvnRepo2Git/releases/latest)
 
 **SvnRepo2Git** is a command-line tool written in C# designed to migrate a live Subversion (SVN) repository to a Git repository. Unlike tools that rely on SVN dump files, `SvnRepo2Git` directly interacts with an SVN repository URL to extract revision history and convert it into a Git repository. It leverages libraries like [SvnExporter](https://github.com/your-svn-exporter-repo-link) (replace with the actual link) to read SVN data and [GitImporter](https://github.com/your-git-importer-repo-link) (or your Git interaction library) to create the Git repository.
 
